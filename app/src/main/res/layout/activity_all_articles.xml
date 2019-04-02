@@ -4,73 +4,84 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AllArticles"
-    android:orientation="vertical"
     android:layout_marginLeft="8dp"
     android:layout_marginTop="16dp"
     android:layout_marginRight="8dp"
-    android:layout_marginBottom="16dp">
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical"
+    tools:context=".AllArticles">
 
     <TextView
         android:id="@+id/AllArticlesTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="16dp"
         android:text="Доклады"
         android:textSize="30sp"
-        android:textStyle="bold"
-        android:layout_marginTop="16dp"/>
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:layout_gravity="center"
-    android:layout_marginTop="24dp">
-    <Button
-        android:id="@+id/allArticles"
-        android:layout_width="match_parent"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="@android:color/holo_orange_light"
-        android:padding="8dp"
-        android:text="All"
-        android:textColor="@android:color/background_light"
-        android:textSize="24sp" />
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/androidArticle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="@color/colorTeg"
-        android:padding="8dp"
-        android:text="Android"
-        android:textColor="@android:color/background_light"
-        android:textSize="24sp" />
+        <Button
+            android:id="@+id/allArticles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="All"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
 
-    <Button
-        android:id="@+id/FrontendArticle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="@android:color/holo_green_light"
-        android:padding="8dp"
-        android:textColor="@android:color/background_light"
-        android:textSize="24sp"
-        android:text="Frontend"/>
+        <Button
+            android:id="@+id/androidArticle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorTeg"
+            android:padding="8dp"
+            android:text="Android"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:id="@+id/FrontendArticle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/holo_green_light"
+            android:padding="8dp"
+            android:text="Frontend"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
 
 
-    <Button
-        android:id="@+id/commonArticle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="@android:color/holo_blue_bright"
-        android:padding="8dp"
-        android:text="Common"
-        android:textColor="@android:color/background_light"
-        android:textSize="24sp" />
+        <Button
+            android:id="@+id/commonArticle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/holo_blue_bright"
+            android:padding="8dp"
+            android:text="Common"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="24dp"/>
 
-</LinearLayout>
+    </LinearLayout>
+
 
 </LinearLayout>

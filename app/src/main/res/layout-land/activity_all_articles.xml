@@ -33,49 +33,46 @@
             android:id="@+id/allArticles"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:background="@android:color/holo_orange_light"
             android:padding="8dp"
             android:text="All"
             android:textColor="@android:color/background_light"
             android:textSize="24sp"
-            android:layout_marginRight="8dp"/>
+            android:layout_margin="8dp"/>
 
         <Button
             android:id="@+id/androidArticle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:background="@color/colorTeg"
             android:padding="8dp"
             android:text="Android"
             android:textColor="@android:color/background_light"
             android:textSize="24sp"
-            android:layout_marginRight="8dp"/>
+            android:layout_margin="8dp"/>
 
         <Button
             android:id="@+id/FrontendArticle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:background="@android:color/holo_green_light"
             android:padding="8dp"
             android:text="Frontend"
             android:textColor="@android:color/background_light"
             android:textSize="24sp"
-            android:layout_marginRight="8dp"/>
+            android:layout_margin="8dp"/>
 
 
         <Button
             android:id="@+id/commonArticle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:background="@android:color/holo_blue_bright"
             android:padding="8dp"
             android:text="Common"
             android:textColor="@android:color/background_light"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:layout_margin="8dp"/>
 
     </LinearLayout>
 
